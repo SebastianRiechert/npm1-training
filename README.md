@@ -25,7 +25,7 @@ conda activate npm1_classification
 The images required for training are released under KAGGLELINK.
 
 ## Training
-Train a single model using default parameters:
+Train a single model using default parameters. Training 50 epochs takes 40 minutes on the specified hardware.
 ```
 python train.py --data-path datasets/npm1_wsi.csv --imgs_path kaggle/wsi
 ```
