@@ -2,11 +2,11 @@
 training pipeline for image classification of npm1 mutation status from bone marrow smears
 
 ## Programming language
-- Python
+- Python 3.7.7
 
 ## Hardware and OS
 The code has been developed and tested with linux on the IBM Power9 CPU architecture (ppc64le) using NVIDIA Tesla V100 GPUs.
-This version of the code requires only a single NVIDIA Tesla V100 GPU, 4 CPU cores and 4gb of RAM to run.
+This version of the code requires only a single NVIDIA Tesla V100 GPU, 4 CPU cores and 6gb of RAM to run.
 
 ## Dependencies
 All dependencies are listed in `environment.yml`
