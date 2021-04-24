@@ -397,9 +397,9 @@ def parse_args():
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('--data-path', help='path to csv containing dataset')
     group.add_argument('--data-paths', nargs=2, help='path to train- and test-csv containing labels and paths to images')
-    parser.add_argument('--imgs_path', default='/beegfs/global0/ws/s7740678-apl_classification_repo/apl_classification/apl_classification/upload/kaggle/wsi', help='folder containing all the images')
+    parser.add_argument('--imgs-path', default='/beegfs/global0/ws/s7740678-apl_classification_repo/apl_classification/apl_classification/upload/kaggle/wsi', help='folder containing all the images')
     parser.add_argument('--name', default='default', help='name of the training run')
-    parser.add_argument('--experiment_name', help='name of the experiment')
+    parser.add_argument('--experiment-name', help='name of the experiment')
     parser.add_argument('--input-size', type=int, nargs=2, default=[150,150], help='shape to which images are resized for training: (h, w)')
     parser.add_argument('--test-split', type=float, default=0.2, help='portion of data to use for testing')
     parser.add_argument('--model', default='resnet50', help='model')
@@ -460,4 +460,3 @@ if __name__ == "__main__":
     with mlflow.start_run(run_name=args.name):
         main(args)
     #main(args)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

@@ -47,7 +47,7 @@ python create_experiment_study.py --name demo
 ```
 - launch hyperparametersearch:
 ```
-python hyper_wsi.py --data-path datasets/npm1_wsi.csv --experiment_name demo
+python hyper_wsi.py --data-path datasets/npm1_wsi.csv --experiment-name demo
 ```
 The hyperparameter-space to search is defined and can be changed in `hyper_wsi.py`
 
