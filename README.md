@@ -22,7 +22,7 @@ conda activate npm1_classification
 ```
 
 ## Data
-The images required for training are released under KAGGLELINK.
+The images required for training are released under https://www.kaggle.com/sebastianriechert/bone-marrow-slides-for-leukemia-prediction
 
 ## Training
 Train a single model using default parameters. Training 50 epochs takes 40 minutes on the specified hardware.
