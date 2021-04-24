@@ -55,3 +55,4 @@ To view training metrics, launch the MLflow-UI:
 ```
 mlflow ui
 ```
+Training metrics also print to stdout during training
